@@ -10,6 +10,11 @@ main {
     margin: 10%
 }
 
+i {
+    font-style: normal;
+
+}
+
 #browseByCategory__header--tag {
     font-size: .9rem;
     font-style: italic;
@@ -45,4 +50,30 @@ main {
 
 .category-item-title {
     font-size: .75rem;
+}
+
+#browseByCategory__header--controls div {
+    border-radius: 100px;
+    background-color: #F5F7FB;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+#browseByCategory__header--controls  {
+    display: flex;
+    gap: 10px;
+}
+
+#browseByCategory__header--controls  i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    font-size: 1.8rem;
 }
