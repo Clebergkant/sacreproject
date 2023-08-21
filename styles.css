@@ -43,9 +43,9 @@ i {
     justify-content: center;
     align-items: center;
     width: 100px;
-    height: 80px;
     background-color: #F5F7FB;
     border-radius: 9px;
+    padding-top: 15px;
 }
 
 .category-item-title {
@@ -76,4 +76,8 @@ i {
     left: 50%;
     transform: translate(-50%, -25%);
     font-size: 1.8rem;
+}
+
+.browseByCategory__items--image-container img {
+    width: 25px;
 }
