@@ -2,6 +2,47 @@ body {
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 main {
     margin: 10%
+}
+
+#browseByCategory__header--tag {
+    font-size: .9rem;
+    font-style: italic;
+    color: rgb(0, 140, 255);
+}
+
+#browseByCategory__header--title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#browseByCategory__header--title {
+    font-weight: 700;
+}
+
+#browseByCategory__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#browseByCategory__list  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    background-color: #F5F7FB;
+    border-radius: 9px;
+}
+
+.category-item-title {
+    font-size: .75rem;
 }
