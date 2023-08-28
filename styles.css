@@ -4,9 +4,6 @@
 }
 
 
-
-}
-
 #navigationGauche a {
     text-decoration: none;
     }
@@ -28,13 +25,6 @@ li {
     border-radius: 50%;
 }
 
-#headerW {
-
-   /* background-color: blue;
-   width: 100%;
-    height: 150px;*/
-  
-}
 
 #headerW .navigation {
    /* width: 100%;
